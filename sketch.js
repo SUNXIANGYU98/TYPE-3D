@@ -1,4 +1,4 @@
-let columns = 50;
+let columns = 20;
 let rows = 20;
 
 //
@@ -11,12 +11,18 @@ function preload() {
 
 //
 
+let cam;
+
 function setup() {
   createCanvas(windowWidth, windowHeight, "webgl");
   angleMode(DEGREES);
 
   textFont(font);
   textSize(height / 10);
+
+  cam = createCamera();
+  cam.setPosition(0, -450, 900);
+  cam.lookAt(0, -100, 0);
 }
 
 //
