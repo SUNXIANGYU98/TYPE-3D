@@ -1,5 +1,5 @@
 let columns = 20;
-let rows = 20;
+let rows = 200;
 
 //
 
