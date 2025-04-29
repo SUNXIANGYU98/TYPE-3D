@@ -1,5 +1,5 @@
 let columns = 50;
-let rows = 10;
+let rows = 20;
 
 //
 
@@ -22,7 +22,7 @@ function setup() {
 //
 
 function draw() {
-  background("blue");
+  background("red;)
   orbitControl();
 
   let angle = 360 / columns;
