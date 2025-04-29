@@ -1,5 +1,5 @@
-let columns = 20;
-let rows = 200;
+let columns = 10;
+let rows = 30;
 
 //
 
@@ -21,8 +21,8 @@ function setup() {
   textSize(height / 10);
 
   cam = createCamera();
-  cam.setPosition(0, -450, 900);
-  cam.lookAt(0, -100, 0);
+  cam.setPosition(0, -900, 400);
+  cam.lookAt(0, -300, 0);
 }
 
 //
